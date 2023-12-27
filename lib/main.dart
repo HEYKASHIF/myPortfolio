@@ -13,16 +13,16 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Container(
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
             image: DecorationImage(
                 image: AssetImage("assets/b.jpg"), fit: BoxFit.cover),
           ),
-          child: Padding(
-            padding: const EdgeInsets.only(top: 90.0),
+          child: const Padding(
+            padding: EdgeInsets.only(top: 90.0),
             child: Column(
               children: [
                 Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: EdgeInsets.all(8.0),
                   child: Row(
                     children: [
                       CircleAvatar(
